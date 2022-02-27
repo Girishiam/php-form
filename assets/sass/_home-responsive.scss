@@ -1,0 +1,133 @@
+//default
+@media (min-width: 1450px) {
+  .container {
+    width: 1366px;
+    margin: auto;
+  }
+}
+
+
+@media(max-width: 768px) {
+  .mbp45 {
+    padding: 45px 0 !important;
+  }
+ .image-wrapper{
+   padding-top: 30px;
+ }
+  .text-image-wrapper h1{
+    width: 400px;
+    padding-top: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height:30px;
+    position: absolute;
+    top: 189px;
+
+
+  }
+
+  .button-class-inner .button2{
+    line-height: 22px;
+    height: 48px;
+    width: 154px;
+    border:3px solid #FFFFFF;
+    background: transparent;
+    font-size: 14px;
+    color: white;
+    transition: ease-out 0.8s;
+    border-radius: 0px;
+    position: absolute;
+    top: 500px;
+
+  }
+  .content{
+    padding-top: 20px;
+
+  }
+  .below-text{
+    font-weight: bold;
+    font-size:10px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    height: 38px;
+    width: 100px;
+  }
+
+  .img-overlay .text-image{
+    color: #FFFFFF;
+    padding-top: 600px;
+    padding-left: 31px;
+    padding-bottom: 21px;
+    padding-right: 206px;
+    font-size: 30px;
+    line-height: 45px;
+    text-transform: uppercase;
+  }
+
+  .text-head h1{
+    padding-top: 30px;
+    color: #2B3382;
+    font-size: 35px;
+    line-height: 40px;
+    overflow: hidden;
+
+  }
+  .text-head h1{
+    margin: 0;
+  }
+  .text-body p{
+    color: #939299;
+    font-size: 10px;
+    line-height: 20px;
+
+
+  }
+
+  .button1{
+    width: 154px;
+    height: 48px;
+    color: #2B3382;
+    border: 3px solid #2B3382;
+    background-color: #FFFFFF;
+    transition: ease-out 0.8s;
+    border-radius: 0px;
+    margin-bottom: 30px;
+
+  }
+}
+@media (max-width: 983px) {
+  .button-class-first{
+    padding-top: 55px;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .slick-slide img{
+    padding-left: -20px;
+  }
+
+}
+
+@media(max-width: 767px) {
+  .pt75, .pt90, .pt95, .pt60,.pt120 {
+    padding-top: 50px !important;
+  }
+  .pb75, .pb90, .pb95, .pb60,.pb120 {
+    padding-bottom: 50px !important;
+  }
+  .Title {
+    font-size: 23px;
+    line-height: 25px;
+  }
+
+  .slick-dots li button:before {
+    font-size: 11px;
+  }
+
+
+}
+
+//--------------end of default
+

@@ -1,0 +1,72 @@
+@import "reset";
+@import "var";
+@import "fonts";
+
+*{
+  font-family: Helvetica;
+  box-sizing: border-box;
+}
+
+//About Part//
+
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+  text-transform: none;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  color: #e7bd74;
+  background-color: rgb(34,28,28);
+  display: block;
+}
+
+.title {
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+h1, h2, h3, h4 {
+  color: rgb(255,255,255);
+  font-weight: 100;
+  font-size: 45px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#emailMsg p{
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+  text-transform: none;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  color: #e7bd74;
+  background-color: rgb(34,28,28);
+
+}
+#phoneMsg p{
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+  text-transform: none;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  color: #e7bd74;
+  background-color: rgb(34,28,28);
+
+}
+@import "home-responsive";
